@@ -1,6 +1,6 @@
 # FivetranのAPIキーとシークレットを設定
-API_KEY="xxxxxxxxx"
-API_SECRET_KEY="xxxxxxxxxxxxxxxxx"
+API_KEY=$FIVETRAN_API_KEY
+API_SECRET_KEY=$FIVETRAN_API_SECRET_KEY
 
 # APIエンドポイント
 URL="https://api.fivetran.com/v1/users"

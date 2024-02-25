@@ -1,5 +1,5 @@
 # APIとAPI秘密鍵を設定する
-API_KEY="xxxxxxxxx"
-API_SECRET_KEY="xxxxxxxxxxxxxxxxx"
+API_KEY=$FIVETRAN_API_KEY
+API_SECRET_KEY=$FIVETRAN_API_SECRET_KEY
 
 echo -n "$API_KEY:$API_SECRET_KEY" | base64
